@@ -1,0 +1,19 @@
+print("Welcome to the FAQ Chatbot!")
+print("Type 'exit' to end the chat.\n")
+
+while True:
+    question = input("You: ").lower()
+
+    if question == "exit":
+        print("Chatbot: Goodbye!")
+        break
+    elif question == "what is your name":
+        print("Chatbot: I am a simple FAQ chatbot.")
+    elif question == "how to reset password":
+        print("Chatbot: Click on 'Forgot Password' and follow the instructions.")
+    elif question == "what are your working hours":
+        print("Chatbot: We are open from 9 AM to 6 PM, Monday to Friday.")
+    elif question == "how to contact support":
+        print("Chatbot: You can email us at support@example.com.")
+    else:
+        print("Chatbot: Sorry, I don't understand that question.")
